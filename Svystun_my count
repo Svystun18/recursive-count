@@ -1,0 +1,10 @@
+public static double mean (Cons lst) {
+    int total = (Integer) lst.data;
+    int count = //something to keep count through the recursion
+
+    if(lst.next == null) {
+        return total / count;
+    }
+
+    else return mean(lst.next); // return statement isn't correct, need help here as well
+}
